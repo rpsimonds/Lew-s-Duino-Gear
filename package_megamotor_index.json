@@ -1,0 +1,58 @@
+{
+  "packages":
+  [
+    {
+      "name": "megamotor",
+      "maintainer": "Beagle Bay Inc",
+      "websiteURL": "https://github.com/rpsimonds/Lews-Duino-Gear.git",
+      "help":
+      {
+        "online": "https://github.com/rpsimonds/Lews-Duino-Gear.git"
+      },
+      "platforms":
+      [
+        {
+          "name": "Lews Duino Gear SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/rpsimonds/Lews-Duino-Gear/blob/e12fb7e0f998006bf339ed69d8a7e2e1db5d197b/MegaMotor-1.0.0.zip",
+          "archiveFileName": "MegaMotor-1.0.0.zip",
+          "checksum": "SHA-256:b55d381db9a6bf280717dd478a7c4317d310aa151fc33bc3da3da436a2ee2fcf",
+          "size": "132904",
+          "boards": [
+    {
+      "name": "Mega Motor Shield for DCC-EX"
+    }         
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
